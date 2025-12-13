@@ -21,6 +21,7 @@
 | 📁 Carpeta | 📝 Contenido | 📊 Estado |
 | :--- | :--- | :---: |
 | [`0. Fundamentos de la programacion en CS`](./0.%20Fundamentos%20de%20la%20programación%20en%20CS/) | Variables, operadores y control de flujo en C# | ⏳ En desarrollo |
+| [`0485.PRG`](./0485.PRG/) | Todo lo que vamos viendo en clases con ejemplos y explicaciones en READMEs! | ⏳ En desarrollo |
 | [`1. HolaMundo`](./1.%20Hola%20Mundo/) | Primer proyecto Console: `Hello World` en C# | ✅ |
 | [`2. Area Triangulo`](./2.%20Area%20Triangulo/) | Ejercicio práctico: entrada por consola y cálculo | ✅ |
 | [`3. EcuacionSegundoGrado`](./3.%20EcuacionSegundoGrado/) | Resolución de ecuación cuadrática (I/O y manejo de errores) | ✅ |
