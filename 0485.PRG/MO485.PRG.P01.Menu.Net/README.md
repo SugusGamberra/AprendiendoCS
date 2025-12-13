@@ -93,9 +93,9 @@ Los **namespaces** en C# cumplen el mismo papel que los **packages en Java**:
 
 La aplicación mantiene la misma idea que en Java:
 
-* 🚀 Clase principal → arranque del programa
-* ⚙️ Lógica → funcionamiento de la calculadora
-* 🖥️ Interfaz de usuario → comunicación con el usuario
+* 🚀 [Clase principal](./MO485.PRG.P01.Menu.Net/aplicacion3/ProgramMain.cs) → arranque del programa
+* ⚙️ [Lógica](./MO485.PRG.P01.Menu.Net/aplicacion3/Logica.cs) → funcionamiento de la calculadora
+* 🖥️ [Interfaz de usuario](./MO485.PRG.P01.Menu.Net/aplicacion3/InterfazUsuario.cs) → comunicación con el usuario
 
 Se reutiliza:
 
