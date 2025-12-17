@@ -5,7 +5,7 @@
         public static void Main(string[] args) // por convencion los metodos de las clases empiezan en mayuscula
         {
             InterfazUsuario.TIPO_INTERFAZ = "C";
-            Logica.inicio();
+            Logica.Inicio();
         }
     }
 }

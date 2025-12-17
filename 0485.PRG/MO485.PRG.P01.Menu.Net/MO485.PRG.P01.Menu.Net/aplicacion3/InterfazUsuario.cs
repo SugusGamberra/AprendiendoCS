@@ -10,7 +10,7 @@ namespace MO485.PRG.P01.Menu.Net.aplicacion3
     {
         public static string TIPO_INTERFAZ = "C";
 
-        public static void muestraMensaje(string mensaje)
+        public static void MuestraMensaje(string mensaje)
         {
             if (TIPO_INTERFAZ == "C")
             {
@@ -23,13 +23,13 @@ namespace MO485.PRG.P01.Menu.Net.aplicacion3
 
         }
 
-        public static int getValorEntero(String mensaje)
+        public static int GetValorEntero(String mensaje)
         {
             int valor = 0;
 
             if (TIPO_INTERFAZ == "C")
             {
-                muestraMensaje(mensaje);
+                MuestraMensaje(mensaje);
                 // esto es como el scanner en JAVA
                 string valorDevuelto = Console.ReadLine();
                 valor = int.Parse(valorDevuelto);
@@ -43,13 +43,13 @@ namespace MO485.PRG.P01.Menu.Net.aplicacion3
 
             return valor;
         }
-        public static double getValorDouble(String mensaje)
+        public static double GetValorDouble(String mensaje)
         {
             double valor = 0;
 
             if (TIPO_INTERFAZ == "C")
             {
-                muestraMensaje(mensaje);
+                MuestraMensaje(mensaje);
                 string valorDevuelto = Console.ReadLine();
                 valor = double.Parse(valorDevuelto);
             }

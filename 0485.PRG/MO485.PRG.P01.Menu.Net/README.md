@@ -128,4 +128,17 @@ En C#:
 
 ✅ Valorar la importancia de un diseño reutilizable
 
+---
+
+### 📎 Norma `IDE 1006`
+
+Esta norma establece que, por convención, los métodos en C# **siempre empiezan en mayúsculas**, ejemplo:
+
+```cs
+public class Logica { 
+    public static void Inicio() {...}
+    private static void Restar() {...}
+}
+```
+
 > Seguimos construyendo base sólida para los próximos días 🚀
