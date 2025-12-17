@@ -8,44 +8,44 @@ namespace MO485.PRG.P01.Menu.Net.aplicacion3
 {
     public class Logica
     {
-        public static void inicio()
+        public static void Inicio()
         {
             int opcion = 0;
 
             do
             {
-                String menu = configuraMenu();
+                String menu = ConfiguraMenu();
 
-                opcion = InterfazUsuario.getValorEntero(menu);
+                opcion = InterfazUsuario.GetValorEntero(menu);
 
                 switch (opcion)
                 {
                     case 1:
-                        sumar();
+                        Sumar();
                         break;
                     case 2:
-                        restar();
+                        Restar();
                         break;
                     case 3:
-                        multiplicar();
+                        Multiplicar();
                         break;
                     case 4:
-                        dividir();
+                        Dividir();
                         break;
                     case 5:
-                        modulo();
+                        Modulo();
                         break;
                     case 0:
                         break;
                     default:
-                        InterfazUsuario.muestraMensaje("Opción no disponible");
+                        InterfazUsuario.MuestraMensaje("Opción no disponible");
                         break;
                 }
             } while (opcion != 0);
 
         }
 
-        private static String configuraMenu()
+        private static String ConfiguraMenu()
         {
             String menu = "\n";
             menu = menu + "-- MENÚ CALCULADORA --";
@@ -66,54 +66,54 @@ namespace MO485.PRG.P01.Menu.Net.aplicacion3
             return menu;
         }
 
-        private static void sumar()
+        private static void Sumar()
         {
-            InterfazUsuario.muestraMensaje("-- SUMA --");
-            double valor1 = InterfazUsuario.getValorDouble("Valor 1:");
-            double valor2 = InterfazUsuario.getValorDouble("Valor 2:");
+            InterfazUsuario.MuestraMensaje("-- SUMA --");
+            double valor1 = InterfazUsuario.GetValorDouble("Valor 1:");
+            double valor2 = InterfazUsuario.GetValorDouble("Valor 2:");
             double resultado = valor1 + valor2;
 
-            InterfazUsuario.muestraMensaje("Resultado: " + resultado);
+            InterfazUsuario.MuestraMensaje("Resultado: " + resultado);
         }
 
-        private static void restar()
+        private static void Restar()
         {
-            InterfazUsuario.muestraMensaje("-- RESTA --");
-            double valor1 = InterfazUsuario.getValorDouble("Valor 1:");
-            double valor2 = InterfazUsuario.getValorDouble("Valor 2:");
+            InterfazUsuario.MuestraMensaje("-- RESTA --");
+            double valor1 = InterfazUsuario.GetValorDouble("Valor 1:");
+            double valor2 = InterfazUsuario.GetValorDouble("Valor 2:");
             double resultado = valor1 - valor2;
 
-            InterfazUsuario.muestraMensaje("Resultado: " + resultado);
+            InterfazUsuario.MuestraMensaje("Resultado: " + resultado);
         }
 
-        private static void multiplicar()
+        private static void Multiplicar()
         {
-            InterfazUsuario.muestraMensaje("-- MULTIPLICACIÓN --");
-            double valor1 = InterfazUsuario.getValorDouble("Valor 1:");
-            double valor2 = InterfazUsuario.getValorDouble("Valor 2:");
+            InterfazUsuario.MuestraMensaje("-- MULTIPLICACIÓN --");
+            double valor1 = InterfazUsuario.GetValorDouble("Valor 1:");
+            double valor2 = InterfazUsuario.GetValorDouble("Valor 2:");
             double resultado = valor1 * valor2;
 
-            InterfazUsuario.muestraMensaje("Resultado: " + resultado);
+            InterfazUsuario.MuestraMensaje("Resultado: " + resultado);
         }
 
-        private static void dividir()
+        private static void Dividir()
         {
-            InterfazUsuario.muestraMensaje("-- DIVISIÓN --");
-            double valor1 = InterfazUsuario.getValorDouble("Valor 1:");
-            double valor2 = InterfazUsuario.getValorDouble("Valor 2:");
+            InterfazUsuario.MuestraMensaje("-- DIVISIÓN --");
+            double valor1 = InterfazUsuario.GetValorDouble("Valor 1:");
+            double valor2 = InterfazUsuario.GetValorDouble("Valor 2:");
             double resultado = valor1 / valor2;
 
-            InterfazUsuario.muestraMensaje("Resultado: " + resultado);
+            InterfazUsuario.MuestraMensaje("Resultado: " + resultado);
         }
 
-        private static void modulo()
+        private static void Modulo()
         {
-            InterfazUsuario.muestraMensaje("-- RESTO --");
-            double valor1 = InterfazUsuario.getValorDouble("Valor 1:");
-            double valor2 = InterfazUsuario.getValorDouble("Valor 2:");
+            InterfazUsuario.MuestraMensaje("-- RESTO --");
+            double valor1 = InterfazUsuario.GetValorDouble("Valor 1:");
+            double valor2 = InterfazUsuario.GetValorDouble("Valor 2:");
             double resultado = valor1 % valor2;
 
-            InterfazUsuario.muestraMensaje("Resultado: " + resultado);
+            InterfazUsuario.MuestraMensaje("Resultado: " + resultado);
         }
     }
 }
